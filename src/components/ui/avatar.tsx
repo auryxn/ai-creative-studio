@@ -1,0 +1,1 @@
+export function Avatar({name="A",src}:{name?:string;src?:string}){return <div className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-full border border-border bg-card-hover text-sm font-semibold text-text">{src ? <img src={src} alt={name} className="h-full w-full object-cover"/> : name.slice(0,1)}</div>}

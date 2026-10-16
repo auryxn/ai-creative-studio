@@ -1,0 +1,1 @@
+"use client"; import { useParams } from "next/navigation"; import { AssetsView } from "@/components/studio/StudioViews"; export default function Client(){ const {id}=useParams<{id:string}>(); return <AssetsView id={id}/> }

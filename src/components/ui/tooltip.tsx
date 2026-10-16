@@ -1,0 +1,1 @@
+export function Tooltip({children,label}:{children:React.ReactNode;label:string}){return <span className="group relative inline-flex">{children}<span className="pointer-events-none absolute bottom-full left-1/2 z-50 mb-2 hidden -translate-x-1/2 rounded-lg bg-card-hover px-2 py-1 text-xs text-secondary group-hover:block">{label}</span></span>}

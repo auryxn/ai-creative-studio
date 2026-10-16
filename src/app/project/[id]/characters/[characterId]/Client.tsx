@@ -1,0 +1,1 @@
+"use client"; import { useParams } from "next/navigation"; import { CharacterDetail } from "@/components/studio/StudioViews"; export default function Client(){ const {id,characterId}=useParams<{id:string;characterId:string}>(); return <CharacterDetail id={id} charId={characterId}/> }

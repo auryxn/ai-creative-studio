@@ -1,0 +1,1 @@
+"use client"; import { useParams } from "next/navigation"; import { PromptsView } from "@/components/studio/StudioViews"; export default function Client(){ const {id}=useParams<{id:string}>(); return <PromptsView projectId={id}/> }

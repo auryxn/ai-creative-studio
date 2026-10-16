@@ -1,0 +1,1 @@
+export function VideoPlayer({url}:{url?:string}){return url?<video controls src={url} className="w-full rounded-xl"/>:<div className="flex aspect-video items-center justify-center rounded-xl border border-border bg-bg/60 text-sm text-muted">Video preview stub</div>}

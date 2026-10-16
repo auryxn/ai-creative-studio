@@ -1,0 +1,1 @@
+"use client"; import { useParams } from "next/navigation"; import { ScriptView } from "@/components/studio/StudioViews"; export default function Client(){ const {id}=useParams<{id:string}>(); return <ScriptView id={id}/> }

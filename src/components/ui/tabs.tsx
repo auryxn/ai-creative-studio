@@ -1,0 +1,2 @@
+"use client"; import { cn } from "@/lib/utils";
+export function Tabs({tabs,value,onChange}:{tabs:{value:string;label:string}[];value:string;onChange:(v:string)=>void}){return <div className="flex gap-1 rounded-xl border border-border bg-card p-1">{tabs.map(t=><button key={t.value} onClick={()=>onChange(t.value)} className={cn("rounded-lg px-3 py-2 text-sm transition",value===t.value?"bg-primary text-white":"text-secondary hover:bg-card-hover hover:text-text")}>{t.label}</button>)}</div>}

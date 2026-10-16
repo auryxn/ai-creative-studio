@@ -1,0 +1,1 @@
+export function AudioPlayer({url}:{url?:string}){return url?<audio controls src={url} className="w-full"/>:<div className="rounded-xl border border-border bg-bg/60 p-4 text-sm text-muted">Audio preview stub</div>}

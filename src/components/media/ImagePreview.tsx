@@ -1,0 +1,1 @@
+export function ImagePreview({url,label="Image preview"}:{url?:string;label?:string}){return <div className="flex aspect-video items-center justify-center rounded-xl border border-border bg-bg/60 text-sm text-muted">{url?<img src={url} alt={label} className="h-full w-full rounded-xl object-cover"/>:label}</div>}
