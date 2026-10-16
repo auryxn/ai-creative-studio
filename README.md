@@ -1,6 +1,6 @@
 # AI Creative Studio
 
-> Часть портфолио: [сайт-портфолио](https://auryxn.github.io) — репозиторий сайта [site-admin](https://github.com/auryxn/site-admin).
+> Часть портфолио: [сайт-портфолио](https://auryxn.github.io/site-admin/) — репозиторий сайта [site-admin](https://github.com/auryxn/site-admin).
 
 > Веб-приложение для организации производства фильмов и видео, создаваемых с помощью AI.
 
